@@ -10,7 +10,7 @@ internal class SetAndGet {
         }
     }
 
-    public static void Main(
+    public static void main(
         string[] args
     ) {
         ClassExample classExample = new();
