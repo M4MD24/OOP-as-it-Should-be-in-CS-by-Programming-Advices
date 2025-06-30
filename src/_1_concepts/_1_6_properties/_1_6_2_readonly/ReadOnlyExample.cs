@@ -11,7 +11,7 @@ internal class ReadOnlyExample {
         } = 20;
     }
 
-    public static void Main(
+    public static void main(
         string[] args
     ) {
         ClassExample classExample = new();
