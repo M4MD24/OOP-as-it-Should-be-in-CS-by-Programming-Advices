@@ -13,7 +13,7 @@ internal class ClassAndObject {
         }
     }
 
-    public static void Main(
+    public static void main(
         string[] args
     ) {
         Person firstPerson = new Person();
