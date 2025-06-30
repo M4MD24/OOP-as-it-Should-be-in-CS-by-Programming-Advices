@@ -3,11 +3,11 @@
         <OutputType>Exe</OutputType>
         <TargetFramework>net9.0</TargetFramework>
         <RootNamespace>OOP_as_it_should_be_in_CS_by_Programming_Advices</RootNamespace>
-        <ImplicitUsings>enable</ImplicitUsings>
+        <ImplicitUsings>disable</ImplicitUsings>
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
     <ItemGroup>
-        <Folder Include="src\"/>
+        <Folder Include="src\" />
     </ItemGroup>
 </Project>
