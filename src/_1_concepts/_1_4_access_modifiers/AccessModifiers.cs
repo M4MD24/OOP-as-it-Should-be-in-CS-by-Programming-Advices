@@ -25,7 +25,7 @@ internal class AccessModifiers {
         }
     }
 
-    public static void Main(
+    public static void main(
         string[] args
     ) {
         FirstClass firstClass = new FirstClass();
