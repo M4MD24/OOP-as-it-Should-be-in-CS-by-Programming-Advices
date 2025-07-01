@@ -1,3 +1,5 @@
+using System;
+
 namespace OOP_as_it_should_be_in_CS_by_Programming_Advices._1_concepts._1_5_static_members;
 
 internal class StaticMembers {
@@ -14,7 +16,7 @@ internal class StaticMembers {
         }
     }
 
-    public static void Main(
+    public static void main(
         string[] args
     ) {
         ClassExample firstClass  = new(),
