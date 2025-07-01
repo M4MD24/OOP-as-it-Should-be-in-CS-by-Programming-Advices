@@ -26,7 +26,7 @@ public class ParameterlessConstructor {
         }
     }
 
-    public static void Main(
+    public static void main(
         string[] args
     ) {
         Person person = new Person();
