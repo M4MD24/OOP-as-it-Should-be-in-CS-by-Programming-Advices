@@ -18,7 +18,7 @@ public class PrivateConstructorVsStaticClass {
         public static string dayOfWeekName => DateTime.Today.DayOfWeek.ToString();
     }
 
-    public static void Main(
+    public static void main(
         string[] args
     ) {
         Console.Write(
