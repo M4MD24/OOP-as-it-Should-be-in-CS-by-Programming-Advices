@@ -13,3 +13,5 @@
         2. [ReadOnly](src/_1_concepts/_1_6_properties/_1_6_2_readonly)
         3. Auto Implemented Properties
         4. [Static Properties & Static Class](src/_1_concepts/_1_6_properties/_1_6_4_static_properties_and_static_class)
+2. [Projects](src/_2_projects)
+    1. [Calculator](src/_2_projects/_2_1_calculator)
