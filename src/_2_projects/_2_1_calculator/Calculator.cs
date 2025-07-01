@@ -8,4 +8,24 @@ public class Calculator {
         Divide   = '/',
         Clear    = ' '
     };
+
+    private double lastValue {
+        set;
+        get;
+    }
+
+    private Operator lastOperator {
+        get;
+        set;
+    } = Operator.Clear;
+
+    private double lastResult {
+        set;
+        get;
+    }
+
+    private double currentResult {
+        set;
+        get;
+    }
 }
