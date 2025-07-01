@@ -11,7 +11,7 @@ internal class StaticPropertiesAndStaticClass {
         }
     }
 
-    public static void Main(
+    public static void main(
         string[] args
     ) {
         Console.Write(
