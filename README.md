@@ -16,7 +16,8 @@
     7. Principles and Concepts of OOP (Object Oriented Programming)
         1. Encapsulation
         2. Abstraction
-    8. Constructor and Destructor
+    8. [Constructor and Destructor](src/_1_concepts/_1_8_constructor_and_destructor)
         1. Constructor
+        2. [Parameterless Constructor](src/_1_concepts/_1_8_constructor_and_destructor/_1_8_2_parameterless_constructor)
 2. [Projects](src/_2_projects)
     1. [Calculator](src/_2_projects/_2_1_calculator)
