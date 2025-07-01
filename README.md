@@ -24,5 +24,6 @@
         5. [Private Constructor vs Static Class](src/_1_concepts/_1_8_constructor_and_destructor/_1_8_5_private_constructor_vs_static_class)
         6. [Multiple Constructors using Overloading](src/_1_concepts/_1_8_constructor_and_destructor/_1_8_6_multiple_constructors_using_overlaoding)
         7. [Static Constructor](src/_1_concepts/_1_8_constructor_and_destructor/_1_8_7_static_constructor)
+        8. [Destructor](src/_1_concepts/_1_8_constructor_and_destructor/_1_8_8_destructor)
 2. [Projects](src/_2_projects)
     1. [Calculator](src/_2_projects/_2_1_calculator)
