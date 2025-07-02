@@ -16,7 +16,8 @@
     7. [Principles and Concepts of OOP (Object Oriented Programming)](src/_1_concepts/_1_7_principles_and_concepts_of_oop)
         1. Encapsulation
         2. Abstraction
-        3. [Inheritance](src/_1_concepts/_1_7_principles_and_concepts_of_oop/_1_7_3_inheritnace)
+        3. [Inheritance](src/_1_concepts/_1_7_principles_and_concepts_of_oop/_1_7_3_inheritance)
+        4. [Inheritance Constructor](src/_1_concepts/_1_7_principles_and_concepts_of_oop/_1_7_4_inheritance_constructor)
     8. [Constructor and Destructor](src/_1_concepts/_1_8_constructor_and_destructor)
         1. Constructor
         2. [Parameterless Constructor](src/_1_concepts/_1_8_constructor_and_destructor/_1_8_2_parameterless_constructor)

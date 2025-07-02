@@ -1,17 +1,18 @@
 using System;
 
-namespace OOP_as_it_should_be_in_CS_by_Programming_Advices._1_concepts._1_7_principles_and_concepts_of_oop._1_7_3_inheritnace;
+namespace OOP_as_it_should_be_in_CS_by_Programming_Advices._1_concepts._1_7_principles_and_concepts_of_oop._1_7_4_inheritance_constructor;
 
-public class InheritanceExample {
+public class InheritanceConstructor {
     public static void Main(
         string[] args
     ) {
-        Employee employee = new Employee();
-        employee.id             = 1;
-        employee.firstName      = "Mohamed";
-        employee.secondName     = "Sadawy";
-        employee.salary         = 76000;
-        employee.departmentName = "Android Development";
+        Employee employee = new Employee(
+            1,
+            "Mohamed",
+            "Sadawy",
+            76000,
+            "Android Development"
+        );
         employee.increaseSalaryBy(
             23000
         );
