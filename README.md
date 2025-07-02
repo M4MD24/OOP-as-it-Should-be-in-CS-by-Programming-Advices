@@ -20,6 +20,7 @@
         4. [Inheritance Constructor](src/_1_concepts/_1_7_principles_and_concepts_of_oop/_1_7_4_inheritance_constructor)
         5. [Upcasting and Downcasting](src/_1_concepts/_1_7_principles_and_concepts_of_oop/_1_7_5_upcasting_and_downcasting)
         6. [Method Overriding in C# Inheritance and Base Keyword](src/_1_concepts/_1_7_principles_and_concepts_of_oop/_1_7_6_method_overriding_in_cs_inheritance_and_base_keyword)
+        7. [Method Hiding in C#](src/_1_concepts/_1_7_principles_and_concepts_of_oop/_1_7_7_method_hiding_in_cs)
     8. [Constructor and Destructor](src/_1_concepts/_1_8_constructor_and_destructor)
         1. Constructor
         2. [Parameterless Constructor](src/_1_concepts/_1_8_constructor_and_destructor/_1_8_2_parameterless_constructor)

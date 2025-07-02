@@ -20,7 +20,7 @@ public static class MethodOverridingInCS_InheritanceAndBaseKeyword {
         }
     }
 
-    public static void Main(
+    public static void main(
         string[] args
     ) {
         new FirstClass().print();
