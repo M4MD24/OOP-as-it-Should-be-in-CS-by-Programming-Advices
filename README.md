@@ -13,9 +13,10 @@
         2. [ReadOnly](src/_1_concepts/_1_6_properties/_1_6_2_readonly)
         3. Auto Implemented Properties
         4. [Static Properties & Static Class](src/_1_concepts/_1_6_properties/_1_6_4_static_properties_and_static_class)
-    7. Principles and Concepts of OOP (Object Oriented Programming)
+    7. [Principles and Concepts of OOP (Object Oriented Programming)](src/_1_concepts/_1_7_principles_and_concepts_of_oop)
         1. Encapsulation
         2. Abstraction
+        3. [Inheritance](src/_1_concepts/_1_7_principles_and_concepts_of_oop/_1_7_3_inheritnace)
     8. [Constructor and Destructor](src/_1_concepts/_1_8_constructor_and_destructor)
         1. Constructor
         2. [Parameterless Constructor](src/_1_concepts/_1_8_constructor_and_destructor/_1_8_2_parameterless_constructor)

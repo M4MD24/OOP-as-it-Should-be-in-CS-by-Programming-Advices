@@ -17,7 +17,7 @@ public class Destructor {
         }
     }
 
-    public static void Main(
+    public static void main(
         string[] args
     ) {
         new ClassExample();
