@@ -1,9 +1,7 @@
-using System;
-
 namespace OOP_as_it_should_be_in_CS_by_Programming_Advices._1_concepts._1_7_principles_and_concepts_of_oop._1_7_5_upcasting_and_downcasting;
 
 public class UpcastingAndDowncasting {
-    public static void Main(
+    public static void main(
         string[] args
     ) {
         Employee employee1 = new Employee(
