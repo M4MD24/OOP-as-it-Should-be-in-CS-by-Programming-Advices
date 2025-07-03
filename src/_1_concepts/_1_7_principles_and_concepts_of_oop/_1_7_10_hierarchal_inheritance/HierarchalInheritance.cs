@@ -35,8 +35,8 @@ public class User : Person {
     }
 }
 
-class HieraricalInheritance {
-    static void Main(
+class HierarchalInheritance {
+    static void main(
         string[] args
     ) {
         // إنشاء كائن من نوع Employee

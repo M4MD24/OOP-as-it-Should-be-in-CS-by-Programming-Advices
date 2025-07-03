@@ -34,5 +34,6 @@
         7. [Static Constructor](src/_1_concepts/_1_8_constructor_and_destructor/_1_8_7_static_constructor)
         8. [Destructor](src/_1_concepts/_1_8_constructor_and_destructor/_1_8_8_destructor)
         9. Real life Application of Using Static and Constructor
+    9. [Abstract Class & Methods](src/_1_concepts/_1_9_abstract_class)
 2. [Projects](src/_2_projects)
     1. [Calculator](src/_2_projects/_2_1_calculator)
