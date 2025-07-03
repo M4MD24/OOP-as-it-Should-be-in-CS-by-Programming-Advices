@@ -24,20 +24,31 @@ public static class MethodHidingInCS {
             );
         }
 
-        public override void secondFunction() {
+        public new void secondFunction() {
             Console.WriteLine(
                 "Second Function of Second Class"
             );
         }
     }
 
-    public static void Main(
+    public static void main(
         string[] args
     ) {
-        new FirstClass().firstFunction();
-        new FirstClass().secondFunction();
+        FirstClass firstClass1 = new FirstClass();
+        firstClass1.firstFunction();
+        firstClass1.secondFunction();
 
-        new SecondClass().firstFunction();
-        new SecondClass().secondFunction();
+        Console.WriteLine();
+
+        SecondClass secondClass1 = new SecondClass();
+        secondClass1.firstFunction();
+        secondClass1.secondFunction();
+
+        Console.WriteLine();
+
+        // When upcasting
+        FirstClass firstClass2 = new SecondClass();
+        firstClass2.firstFunction();
+        firstClass2.secondFunction();
     }
 }
