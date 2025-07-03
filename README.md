@@ -46,5 +46,6 @@
         2. [Sealed Method](src/_1_concepts/_1_13_sealed/_1_13_2_sealed_method)
     14. [Partial](src/_1_concepts/_1_14_partial)
         1. [Partial Class](src/_1_concepts/_1_14_partial/_1_14_1_partial_class)
+        2. [Partial Method](src/_1_concepts/_1_14_partial/_1_14_2_partial_method)
 2. [Projects](src/_2_projects)
     1. [Calculator](src/_2_projects/_2_1_calculator)

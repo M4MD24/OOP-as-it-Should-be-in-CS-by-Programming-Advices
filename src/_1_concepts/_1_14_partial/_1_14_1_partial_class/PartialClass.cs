@@ -27,7 +27,7 @@ public partial class Person {
 }
 
 class PartialClass {
-    static void Main() {
+    static void main() {
         Person person = new Person();
         person.firstName  = "Mohamed";
         person.secondName = "Sadawy";
