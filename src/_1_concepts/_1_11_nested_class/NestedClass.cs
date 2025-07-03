@@ -1,6 +1,6 @@
 using System;
 
-namespace OOP_as_it_should_be_in_CS_by_Programming_Advices._1_concepts._1_11_cs_nested_class;
+namespace OOP_as_it_should_be_in_CS_by_Programming_Advices._1_concepts._1_11_nested_class;
 
 class OuterClass {
     // Nested class
@@ -19,7 +19,7 @@ class OuterClass {
     }
 }
 
-class CS_NstedClass {
+class NestedClass {
     static void main(
         string[] args
     ) {
