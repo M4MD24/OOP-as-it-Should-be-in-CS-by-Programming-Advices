@@ -39,5 +39,6 @@
     10. [Interface](src/_1_concepts/_1_10_interface)
         1. [What is Interface? and Why?](src/_1_concepts/_1_10_interface/_1_10_1_what_is_interface_and_why)
         2. [Implementing Multiple Interfaces](src/_1_concepts/_1_10_interface/_1_10_2_implementing_multiple_interfaces)
+    11. [C# Nested Class](src/_1_concepts/_1_11_cs_nested_class)
 2. [Projects](src/_2_projects)
     1. [Calculator](src/_2_projects/_2_1_calculator)

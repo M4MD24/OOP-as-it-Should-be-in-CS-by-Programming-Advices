@@ -87,7 +87,7 @@ public class Employee : Person {
 }
 
 public class ImplementingMultipleInterfaces {
-    public static void Main() {
+    public static void main() {
         Employee employee = new Employee {
             firstName  = "Mohamed",
             secondName = "Sadawy",
