@@ -38,5 +38,6 @@
     9. [Abstract Class & Methods](src/_1_concepts/_1_9_abstract_class_and_methods)
     10. [Interface](src/_1_concepts/_1_10_interface)
         1. [What is Interface? and Why?](src/_1_concepts/_1_10_interface/_1_10_1_what_is_interface_and_why)
+        2. [Implementing Multiple Interfaces](src/_1_concepts/_1_10_interface/_1_10_2_implementing_multiple_interfaces)
 2. [Projects](src/_2_projects)
     1. [Calculator](src/_2_projects/_2_1_calculator)

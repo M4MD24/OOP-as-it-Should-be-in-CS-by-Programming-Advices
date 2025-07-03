@@ -3,10 +3,10 @@ using System;
 namespace OOP_as_it_should_be_in_CS_by_Programming_Advices._1_concepts._1_10_interface._1_10_1_what_is_interface_and_why;
 
 public interface Named {
-    public string firstName  { set; get; }
-    public string secondName { set; get; }
+    string firstName  { set; get; }
+    string secondName { set; get; }
 
-    public void introduce();
+    void introduce();
 }
 
 // You cannot create an object of an abstract class, you can only inherit it.
@@ -34,7 +34,7 @@ public class Employee : Person {
 }
 
 public class WhatIsInterfaceAndWhy {
-    public static void Main() {
+    public static void main() {
         Employee employee = new Employee {
             firstName  = "Mohamed",
             secondName = "Sadawy",
