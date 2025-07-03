@@ -28,7 +28,7 @@ class MoreDerivedClass : DerivedClass {
 }
 
 class SealedMethod {
-    static void Main() {
+    static void main() {
         BaseClass baseClass1 = new BaseClass();
         baseClass1.display();
 
