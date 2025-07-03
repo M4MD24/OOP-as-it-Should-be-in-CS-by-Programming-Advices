@@ -24,7 +24,7 @@
         8. Types Of Inheritance
         9. [Multiple-Level Inheritance](src/_1_concepts/_1_7_principles_and_concepts_of_oop/_1_7_9_multiple_level_inheritance)
         10. [Hierarchal Inheritance](src/_1_concepts/_1_7_principles_and_concepts_of_oop/_1_7_10_hierarchal_inheritance)
-        11. ~~Polymorphism~~
+        11. Polymorphism
     8. [Constructor and Destructor](src/_1_concepts/_1_8_constructor_and_destructor)
         1. Constructor
         2. [Parameterless Constructor](src/_1_concepts/_1_8_constructor_and_destructor/_1_8_2_parameterless_constructor)
@@ -39,7 +39,7 @@
     10. [Interface](src/_1_concepts/_1_10_interface)
         1. [What is Interface? and Why?](src/_1_concepts/_1_10_interface/_1_10_1_what_is_interface_and_why)
         2. [Implementing Multiple Interfaces](src/_1_concepts/_1_10_interface/_1_10_2_implementing_multiple_interfaces)
-    11. [C# Nested Class](src/_1_concepts/_1_11_cs_nested_class)
+    11. [Nested Class](src/_1_concepts/_1_11_nested_class)
     12. [Composition](src/_1_concepts/_1_12_composition)
     13. [Sealed](src/_1_concepts/_1_13_sealed)
         1. [Sealed Class](src/_1_concepts/_1_13_sealed/_1_13_1_sealed_class)

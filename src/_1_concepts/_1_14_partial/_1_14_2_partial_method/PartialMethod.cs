@@ -23,7 +23,7 @@ public partial class ClassExample {
 }
 
 public class PartialMethod {
-    static void Main() {
+    static void main() {
         ClassExample classExample = new ClassExample();
         classExample.startProcess();
     }
