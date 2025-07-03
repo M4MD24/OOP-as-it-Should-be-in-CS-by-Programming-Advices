@@ -1,112 +1,41 @@
 using System;
 
-namespace OOP_as_it_should_be_in_CS_by_Programming_Advices._1_concepts._1_10_interface._1_10_2_implementing_multiple_interfaces;
+namespace OOP_as_it_should_be_in_CS_by_Programming_Advices._1_concepts._1_13_sealed._1_13_2_sealed_method;
 
-public interface Named {
-    string firstName  { set; get; }
-    string secondName { set; get; }
-
-    void introduce();
-}
-
-public interface Communicate {
-    void callPhone();
-
-    void sendEmail(
-        string title,
-        string body
-    );
-
-    void sendSMS(
-        string title,
-        string body
-    );
-
-    void sendFax(
-        string title,
-        string body
-    );
-}
-
-// You cannot create an object of an abstract class, you can only inherit it.
-public abstract class Person : Named,
-                               Communicate {
-    public string firstName  { get; set; } = "";
-    public string secondName { get; set; } = "";
-
-    public abstract void introduce();
-
-    public void saySalam() {
+class BaseClass {
+    public virtual void display() {
         Console.WriteLine(
-            "Salam!"
-        );
-    }
-
-    public void callPhone() {
-        Console.WriteLine(
-            "Calling Phone"
-        );
-    }
-
-    public void sendEmail(
-        string title,
-        string body
-    ) {
-        Console.WriteLine(
-            "Email Sent"
-        );
-    }
-
-    public void sendSMS(
-        string title,
-        string body
-    ) {
-        Console.WriteLine(
-            "SMS Sent"
-        );
-    }
-
-    public void sendFax(
-        string title,
-        string body
-    ) {
-        Console.WriteLine(
-            "Fax Sent"
+            "BaseClass Display"
         );
     }
 }
 
-public class Employee : Person {
-    public int employeeId { get; set; }
-
-    public override void introduce() {
+class DerivedClass : BaseClass {
+    public sealed override void display() {
         Console.WriteLine(
-            $"Alsalam alaykum wa rahmat allah wa barakatuh, my name is {firstName} {secondName}, and my employee ID is {employeeId}."
+            "DerivedClass Display"
         );
     }
 }
 
-public class SealedMethod {
-    public static void main() {
-        Employee employee = new Employee {
-            firstName  = "Mohamed",
-            secondName = "Sadawy",
-            employeeId = 123
-        };
-        employee.introduce();
-        employee.saySalam();
-        employee.callPhone();
-        employee.sendEmail(
-            "Title",
-            "Body"
-        );
-        employee.sendSMS(
-            "Title",
-            "Body"
-        );
-        employee.sendFax(
-            "Title",
-            "Body"
-        );
+class MoreDerivedClass : DerivedClass {
+    // This will cause a compile-time error because Display is sealed in DerivedClass.
+    // public override void display() {
+    //     Console.WriteLine(
+    //         "MoreDerivedClass Display"
+    //     );
+    // }
+}
+
+class SealedMethod {
+    static void Main() {
+        BaseClass baseClass1 = new BaseClass();
+        baseClass1.display();
+
+        BaseClass baseClass2 = new DerivedClass();
+        baseClass2.display();
+
+        MoreDerivedClass moreDerivedClass = new MoreDerivedClass();
+        moreDerivedClass.display(); // Would call DerivedClass Display since it's sealed
     }
 }

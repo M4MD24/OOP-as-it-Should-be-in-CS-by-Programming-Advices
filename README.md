@@ -43,5 +43,6 @@
     12. [Composition](src/_1_concepts/_1_12_composition)
     13. [Sealed](src/_1_concepts/_1_13_sealed)
         1. [Sealed Class](src/_1_concepts/_1_13_sealed/_1_13_1_sealed_class)
+        2. [Sealed Method](src/_1_concepts/_1_13_sealed/_1_13_2_sealed_method)
 2. [Projects](src/_2_projects)
     1. [Calculator](src/_2_projects/_2_1_calculator)

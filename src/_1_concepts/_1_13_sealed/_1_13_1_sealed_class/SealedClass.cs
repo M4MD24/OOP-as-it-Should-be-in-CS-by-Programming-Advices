@@ -3,8 +3,8 @@ namespace OOP_as_it_should_be_in_CS_by_Programming_Advices._1_concepts._1_13_sea
 // Can't inherit from a sealed class
 sealed class FirstClass {}
 
-class Program {
-    static void Main(
+class SealedClass {
+    static void main(
         string[] args
     ) {}
 }
