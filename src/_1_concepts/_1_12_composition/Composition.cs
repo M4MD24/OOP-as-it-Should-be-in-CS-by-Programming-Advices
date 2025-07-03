@@ -1,6 +1,6 @@
 using System;
 
-namespace OOP_as_it_should_be_in_CS_by_Programming_Advices._1_concepts._1_13_composition;
+namespace OOP_as_it_should_be_in_CS_by_Programming_Advices._1_concepts._1_12_composition;
 
 // Component class 1
 class Engine {
@@ -58,7 +58,7 @@ class Car {
 
 // Program Entry
 class Composition {
-    static void Main(
+    static void main(
         string[] args
     ) {
         Car car = new Car();
