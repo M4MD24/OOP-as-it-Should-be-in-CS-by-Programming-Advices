@@ -35,7 +35,7 @@ public class Developer : Employee {
 }
 
 class MultipleLevelInheritance {
-    static void Main(
+    static void main(
         string[] args
     ) {
         Developer developer = new Developer();

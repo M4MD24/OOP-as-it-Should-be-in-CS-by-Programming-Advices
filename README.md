@@ -23,6 +23,7 @@
         7. [Method Hiding in C#](src/_1_concepts/_1_7_principles_and_concepts_of_oop/_1_7_7_method_hiding_in_cs)
         8. Types Of Inheritance
         9. [Multiple-Level Inheritance](src/_1_concepts/_1_7_principles_and_concepts_of_oop/_1_7_9_multiple_level_inheritance)
+        10. [Hierarchal Inheritance](src/_1_concepts/_1_7_principles_and_concepts_of_oop/_1_7_10_hierarchal_inheritance)
     8. [Constructor and Destructor](src/_1_concepts/_1_8_constructor_and_destructor)
         1. Constructor
         2. [Parameterless Constructor](src/_1_concepts/_1_8_constructor_and_destructor/_1_8_2_parameterless_constructor)

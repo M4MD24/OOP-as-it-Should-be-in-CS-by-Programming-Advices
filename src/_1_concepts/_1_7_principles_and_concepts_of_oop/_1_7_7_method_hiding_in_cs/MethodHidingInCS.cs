@@ -10,7 +10,7 @@ public static class MethodHidingInCS {
             );
         }
 
-        public virtual void secondFunction() {
+        public void secondFunction() {
             Console.WriteLine(
                 "Second Function of First Class"
             );
