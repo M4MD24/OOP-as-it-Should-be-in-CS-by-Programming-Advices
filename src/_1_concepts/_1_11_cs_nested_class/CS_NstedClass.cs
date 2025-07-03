@@ -20,7 +20,7 @@ class OuterClass {
 }
 
 class CS_NstedClass {
-    static void Main(
+    static void main(
         string[] args
     ) {
         OuterClass outerClass = new OuterClass();
