@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP-as-it-should-be-in-CS-by-Programming-Advices", "OOP-as-it-should-be-in-CS-by-Programming-Advices\OOP-as-it-should-be-in-CS-by-Programming-Advices.csproj", "{8515F022-A9CB-4C8B-99BE-DC7FAE1414D4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP-as-it-Should-be-in-CS-by-Programming-Advices", "OOP-as-it-Should-be-in-CS-by-Programming-Advices\OOP-as-it-Should-be-in-CS-by-Programming-Advices.csproj", "{8515F022-A9CB-4C8B-99BE-DC7FAE1414D4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibraryExample", "ClassLibraryExample\ClassLibraryExample.csproj", "{BDDF4454-3C9E-49E1-9AB2-DD54F32D8781}"
 EndProject
