@@ -49,7 +49,7 @@
         2. [Partial Method](OOP-as-it-should-be-in-CS-by-Programming-Advices/src/_1_concepts/_1_14_partial/_1_14_2_partial_method)
     15. [Introduction to Class Library](OOP-as-it-should-be-in-CS-by-Programming-Advices/src/_1_concepts/_1_15_introduction_to_class_library)
     16. Internal Access Modifier
-    17. ~~Class vs Struct~~
+    17. Class vs Struct
     18. ~~Enums~~
 2. [Projects](OOP-as-it-should-be-in-CS-by-Programming-Advices/src/_2_projects)
     1. [Calculator](OOP-as-it-should-be-in-CS-by-Programming-Advices/src/_2_projects/_2_1_calculator)
